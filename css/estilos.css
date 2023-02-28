@@ -1,0 +1,125 @@
+body {
+  background-color: #191919;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+  font-size: large;
+  text-align: center;
+  margin: 0px;
+}
+
+/*Barra de navegación*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+  
+li a:hover {
+  background-color: #111;
+  color:rgb(170, 123, 253)
+}
+
+#spanShare {
+  display: none;
+  color:rgb(170, 123, 253);
+}
+/*Imagen de fondo y texto*/  
+.contenedor{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  font-size: xx-large;
+}
+ 
+.textoHome{
+  size: 100%;
+  position: absolute;
+  top: 31%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #232323;
+}
+
+.ingeniero {
+  width:200px;
+  height:200px;
+  border-radius:160px;
+  border:10px solid #232323;
+}
+
+.titulo, #descripcion {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*Secciones*/
+.separador {
+  height: 100px;
+}
+
+.seccion {
+  font-size: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: rgb(71, 71, 71);
+  color: rgb(170, 123, 253);
+}
+
+h3 {
+  color:rgb(170, 123, 253)
+}
+
+.entrada, .mensaje {
+  width: 500px;
+  height: 35px;
+  margin: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.mensaje {
+  height: 200px;
+}
+
+.enviar {  
+  width: 510px;
+  height: 50px;
+  margin: 0px;
+  font-family: 'Oswald', sans-serif;
+  font-size: x-large;
+  background-color: rgb(170, 123, 253);
+  border: 0px;
+}
+
+#respuesta {
+  display: none;
+  color:rgb(170, 123, 253);
+}
+#divAbajo {
+  height: 150px;
+}
+
+#footer {
+  height: 30px;
+  font-size: small;
+  background-color: #121212;
+}
+
+
+
